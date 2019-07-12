@@ -1,0 +1,38 @@
+.img-des{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.image-upload > input {
+    display: block;
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.image-upload > label {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 50%;
+    position: relative;
+
+}
+.label-center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
